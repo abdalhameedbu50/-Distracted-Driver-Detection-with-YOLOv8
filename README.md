@@ -1,4 +1,4 @@
-# Distracted Driver Detection with YOLOv8 🚗📱
+# Distracted Driver Detection with YOLOv8 
 
 ![Demo](assets/detection_demo.gif)
 
