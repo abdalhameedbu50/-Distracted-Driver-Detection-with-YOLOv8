@@ -10,10 +10,7 @@ This repository contains the implementation of a deep learning-based solution fo
 - [Dataset](#dataset)
 - [Methodology](#methodology)
 - [Results](#results)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Acknowledgements](#acknowledgements)
-- [References](#references)
+- [Architecture Diagram](#architecture-diagram)
 
 ## Problem Statement
 Distracted driving is a major cause of road accidents worldwide, resulting in thousands of fatalities annually. This project addresses the critical need for automated systems that can:
@@ -81,4 +78,15 @@ Our optimized model achieved:
 
 Class-specific performance:
 
-![Confusion Matrix](https://via.placeholder.com/400x400?text=Confusion+Matrix)
+![Confusion Matrix](diagram.png)
+
+## Architecture Diagram
+
+![Model Architecture](diagram.png)
+
+The diagram above illustrates our system architecture:
+1. Input layer receiving dashcam footage
+2. Preprocessing module
+3. YOLOv8 backbone with feature extraction
+4. Classification head with 10 output nodes
+5. Post-processing for final prediction
